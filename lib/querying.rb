@@ -8,7 +8,7 @@ end
 
 
 def select_value_and_count_of_most_prolific_species
-  "SELECT Characters.species, COUNT(*) FROM characters GROUP BY ; "
+  "SELECT Characters.species, COUNT(*) FROM characters GROUP BY(species) ORDER BY 2; "
 end
 
 def select_name_and_series_subgenres_of_authors
