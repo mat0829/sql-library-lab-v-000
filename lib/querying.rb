@@ -18,7 +18,7 @@ end
 def select_series_title_with_most_human_characters
   "SELECT `species`
     FROM     `characters`
-    WHERE `column`
+    WHERE `species` = 'humans'
     ORDER BY COUNT(*) DESC
     LIMIT    1; "
 end
