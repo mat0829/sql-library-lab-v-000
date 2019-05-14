@@ -1,3 +1,3 @@
-"UPDATE Characters.species FROM characters
- SET ContactName='Martian'
- WHERE id=(SELECT MAX(id);"
+UPDATE Characters
+SET ContactName = 'Alfred Schmidt', City= 'Frankfurt'
+WHERE Character_id = 1;
