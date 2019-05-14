@@ -1,2 +1,2 @@
-"UPDATE Customers 
- SET ContactName='Juan';SET  FROM characters WHERE id=(SELECT MAX(id) FROM characters = 'Martian';"
+"UPDATE Characters.species 
+ WHERE id=(SELECT MAX(id) FROM characters = 'Martian';"
