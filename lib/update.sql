@@ -1,3 +1,3 @@
 def updating
-  "SELECT Character.species FROM characters WHERE species_id = 'Martian';"
+  "SELECT Characters.species FROM characters WHERE Characters.species_id = 'Martian';"
 end
