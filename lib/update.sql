@@ -1,3 +1,3 @@
 def updating
-  "SELECT species FROM "
+  "SELECT Character.species FROM "
 end
