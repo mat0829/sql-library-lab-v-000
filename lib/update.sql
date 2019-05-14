@@ -1,1 +1,1 @@
-"SELECT Characters.species FROM characters WHERE Characters.species_id = 'Martian';"
+"SELECT Characters.species FROM characters WHERE id=(SELECT MAX(id) FROM characters;"
