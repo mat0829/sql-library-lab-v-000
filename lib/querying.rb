@@ -17,7 +17,7 @@ end
 
 def select_series_title_with_most_human_characters
   "SELECT Series.title FROM characters, series WHERE Characters.species 
-	LIKE 'human' AND characters.series_id = 1 AND series.id = 1 LIMIT 1;"
+	LIKE 'human' INNER JOIN ON characters on characters.series_id = series.id = 1 LIMIT 1;"
 end
 
 def select_character_names_and_number_of_books_they_are_in
