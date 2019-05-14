@@ -16,8 +16,9 @@ def select_name_and_series_subgenres_of_authors
 end
 
 def select_series_title_with_most_human_characters
-  "SELECT Series.title FROM characters, series WHERE Characters.species 
-	LIKE 'human' AND characters.series_id = 1 AND series.id = 1 LIMIT 1;"
+  "    SELECT column-names
+      FROM table-name
+     WHERE column-name LIKE value ;"
 end
 
 def select_character_names_and_number_of_books_they_are_in
