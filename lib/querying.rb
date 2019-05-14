@@ -12,7 +12,7 @@ def select_value_and_count_of_most_prolific_species
 end
 
 def select_name_and_series_subgenres_of_authors
-  "SELECT Authors.name, Subgenres.name FROM series INNER JOIN ;"
+  "SELECT Authors.name, Subgenres.name FROM ((Orders INNER JOIN Customers ON Orders.CustomerID = Customers.CustomerID) INNER JOIN Shippers ON Orders.ShipperID = Shippers.ShipperID); ;"
 end
 
 def select_series_title_with_most_human_characters
