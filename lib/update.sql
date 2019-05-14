@@ -1,3 +1,3 @@
 UPDATE Characters
-SET Characters.species = 'Martian'
+SET species = 'Martian'
 WHERE id=(SELECT MAX(id)
